@@ -6,6 +6,9 @@
 #include <fstream>
 #include <windows.h>
 #include "memory_manager.h"
+#include "memory_collector.h"
+#include "hash_helper.h"
+
 
 HANDLE hArrangeEvent = 0;
 HANDLE hQuitingEvent = 0;
@@ -95,6 +98,12 @@ int generate_dot(const std::string fn, std::vector<intptr_t>& nodes, std::vector
 
 int main()
 {
+
+	memory_collector collector;
+
+
+
+
 	hArrangeEvent = ::CreateEvent(0, FALSE, FALSE, 0);
 	hQuitingEvent = ::CreateEvent(0, FALSE, FALSE, 0);
 

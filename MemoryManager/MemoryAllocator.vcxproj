@@ -141,11 +141,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Entry.cpp" />
+    <ClCompile Include="hash_helper.cpp" />
     <ClCompile Include="memory_allocator.cpp" />
+    <ClCompile Include="memory_collector.cpp" />
     <ClCompile Include="memory_manager.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="hash_helper.h" />
     <ClInclude Include="memory_allocator.h" />
+    <ClInclude Include="memory_collector.h" />
     <ClInclude Include="memory_manager.h" />
   </ItemGroup>
   <ItemGroup>

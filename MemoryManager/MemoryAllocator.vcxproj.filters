@@ -24,12 +24,24 @@
     <ClCompile Include="memory_allocator.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="memory_collector.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="hash_helper.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="memory_manager.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="memory_allocator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="memory_collector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="hash_helper.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
